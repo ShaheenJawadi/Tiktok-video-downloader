@@ -3,18 +3,6 @@
 version = 4
 
 [[package]]
-name = "Tiktok-video-downloader"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "dialoguer",
- "indicatif",
- "reqwest",
- "serde_json",
- "tokio",
-]
-
-[[package]]
 name = "addr2line"
 version = "0.24.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1136,6 +1124,18 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "tiktok-video-downloader"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "dialoguer",
+ "indicatif",
+ "reqwest",
+ "serde_json",
+ "tokio",
 ]
 
 [[package]]
